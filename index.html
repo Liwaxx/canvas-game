@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LKS Wilker 2019</title>
+  <style>
+    canvas { 
+      background-color: darkgrey;
+    }
+    #start-game {
+        width: 600px;
+        height: 600px;
+        background-color: darkgrey;
+        display: block;
+    }
+    #start-game p {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-weight: bold;
+    }
+    #you-win{
+      display: none;
+    }
+    #game-over{
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="start-game" onclick="startGame()">
+      <p>
+        Silahkan klik disini <br>
+        untuk memulai game :v
+      </p>
+  </div>
+  <div id="you-win">
+      <p>
+        Selamat anda menang
+      </p>
+      <button onclick="">Main lagi?</button>
+  </div>
+  <div id="game-over">
+      <p>
+        Game Over
+      </p>
+      <button onclick="">Main lagi?</button>
+  </div>
+  <script src="./newGame.js"></script>
+</body>
+</html>
